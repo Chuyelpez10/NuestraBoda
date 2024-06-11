@@ -61,15 +61,9 @@ margin: auto;
 }
 .fuente1{
     text-align: center;
-}
-/* Ejemplo de Flexbox */
-.container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-/* Ejemplo de Grid */
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+/* Ejemplo de media query */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
 }
