@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Great+Vibes&family=Pacifico&family=Satisfy&family=Lobster&display=swap">
+    <link rel="stylesheet" href="ccs/estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+
+
+
+<header>
+<div class="inicial">
+<img src="img/Invitación Virtual de Boda Fotográfica Negra.png" alt="300" width="600" height="800">
+</div>
+<h1>14 de Dicimebre del 2024</h1>
+
+</header>
+<body>
+<div class="frase">
+<h2>El amor no se deleita en el mal sino que se regocija con la verdad.
+ Siempre protege, siempre confía, siempre espera, siempre persevera. 
+Y ahora es el momento en el que nos daremos el ¡Si quiero!</h2>
+</div>
+   <div class="imagen">
+    <img src="img/Invitacion Vertical Bautizo Floral Azul y Verde (1).png" alt="800" width="600" height="800" > 
+   
+    <p><br></p>
+    <p><br></p>
+    <p><br></p>
+
+</div>
+    <div class="grid-container">
+        
+        <img src="img/img3.jpg" alt="Imagen 3" width="100" height="100">
+        <img src="img/img4.jpg" alt="Imagen 4" width="100" height="100">
+        <img src="img/img5.jpg" alt="Imagen 5" width="100" height="100">
+        <img src="img/img6.jpg" alt="Imagen 6" width="100" height="100">
+        <img src="img/img7.jpg" alt="Imagen 7" width="100" height="100">
+        <img src="img/img8.jpg" alt="Imagen 8" width="100" height="100">
+    </div>
+ 
+<div class="mapas-lugar" > 
+    <div class="fuente1">
+        <div class="fuentepacifico">LUGAR DE CEREMONIA DE CEREMONIA RELIGIOSA
+        </div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.5566609433145!2d-99.58623349999999!3d19.301636499999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cd8a88e3165e79%3A0x5bea19e29b1e5caa!2sParroquia%20de%20la%20Inmaculada%20Concepci%C3%B3n!5e0!3m2!1ses!2smx!4v1717649646316!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<div class="fuente1">
+<div class="fuentepacifico">LUGAR DEl EVENTO
+</div>
+</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.3766505192193!2d-99.584538!3d19.3094556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cd8bb4707d8f41%3A0xcf3b3a098dd02dad!2sJard%C3%ADn%20ranchito!5e0!3m2!1ses!2smx!4v1717649543460!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+<div class="ceremonia"> 
+<div> <div class="fuentepacifico">ITINERARIO</div>
+    
+<img src="img/Tarjeta Itinerario de Boda Vintage Marrón (1).png" alt="800" width="600" height="800">
+</div>
+        
+            <h2> Te Invitamos a Nuestra Boda </h2>
+        <p id="demo"></p>
+        <p class="message" id="countdownMessage"></p>
+    </div>
+</div>
+
+
+
+
+</body>
+
+
+
+
+
+<script>
+    // Temporizador para el 14 de diciembre de 2024
+    var countDownDate = new Date("Dec 14, 2024 00:00:00").getTime();
+
+    var x = setInterval(function() {
+        var now = new Date().getTime();
+        var distance = countDownDate - now;
+
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        document.getElementById("demo").innerHTML = days + "d " + hours + "h " +
+        minutes + "m " + seconds + "s ";
+
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "";
+            document.getElementById("countdownMessage").innerHTML = "¡Felices Fiestas!";
+        }
+    }, 1000);
+</script>
+<style>
+     .pacifico {
+            font-family: 'Pacifico', cursive;
+        }
+</style>
+</body>
+</html>
