@@ -62,18 +62,38 @@ margin: auto;
 .fuente1{
     text-align: center;
 }
- }
+.resolucion{
+width: 99;
+text-align: center;
 
-        @media (max-width: 480px) {
-            header {
-                font-size: 16px;
-                padding: 15px 0;
-            }
-    }
+}
+/**Movil**/
+@media (max-width: 767px){}
+.desktop{
+    display: none;
 
-        /* Media Queries para Responsividad */
-        @media (max-width: 768px) {
-            .grid-container {
-                grid-template-columns: 1fr;
-            }
-            
+}
+.tablet{
+    display: none;
+
+}
+/**Tablet**/
+@media (max-width: 767px) and (max-width:990px){}
+.desktop{
+display: none;
+}
+
+.movil{
+    display: none;
+    
+}
+/**Escritorio**/
+@media (max-width: 991px){}
+.tablet{
+    display: none;
+
+}
+.movil{
+    display: none;
+    
+}
